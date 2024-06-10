@@ -1,6 +1,6 @@
-name: Build and Test and Deploy
+ name: Build and Test and Deploy
 
-on:
+ on:
   push:
     branches: [ "main" ]
   pull_request:
@@ -8,7 +8,7 @@ on:
 
 jobs:
 
- npm_security_tests:
+  npm_security_tests:
     runs-on: ubuntu-latest
 
     steps:
